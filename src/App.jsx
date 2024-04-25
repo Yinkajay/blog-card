@@ -1,27 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import avatar from '../assets/images/image-avatar.webp'
+import illustration from '../assets/images/illustration-article.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      Learning
+      <div className="bg-white rounded-2xl border-solid border-t-1 border-r-8 border-b-8 border-l-1 border-2 border-black p-4 w-96">
+        <img src={illustration} alt="" className='w-full rounded-lg mx-auto' />
 
-      Published 21 Dec 2023
+        <p className='font-bold p-2 my-1 w-max bg-amber-300'>Learning</p>
 
-      HTML & CSS foundations
+        <h4>Published 21 Dec 2023</h4>
 
-      These languages are the backbone of every website, defining structure, content, and presentation.
+        <h1 className='font-bold text-xl'>HTML & CSS foundations</h1>
 
-      Greg Hooper
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
 
-      <div class="attribution">
+        <div className="flex items-center">
+          <img src={avatar} alt="avatar" className='w-8' />
+          Greg Hooper
+        </div>
+      </div>
+
+
+      {/* <div class="w-1/2">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Your Name Here</a>.
-      </div>
+      </div> */}
     </>
   )
 }
