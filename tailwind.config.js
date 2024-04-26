@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily:{
+      'FigTree': ['FigTree', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        grey: '#808080',
+        yellow: '	#f4d04e'
+      }
+    },
   },
   plugins: [],
 }
