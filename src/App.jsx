@@ -9,7 +9,7 @@ function App() {
       <div className=" rounded-2xl border-solid border-t-1 border-r-8 border-b-8 border-l-1 border-2 border-black p-4 w-80 sm:w-96  bg-white ">
         <img src={illustration} alt="" className='w-full rounded-lg mx-auto' />
 
-        <p className='rounded-sm font-bold py-1 px-3 my-4 my-1 w-max bg-yellow'>Learning</p>
+        <p className='rounded-sm font-bold py-1 px-3 my-4 w-max bg-yellow'>Learning</p>
 
         <h4 className=''>Published 21 Dec 2023</h4>
 
@@ -25,10 +25,10 @@ function App() {
       </div>
 
 
-      {/* <div className="w-1/2">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-      </div> */}
+      <div className="absolute bottom-2 left-1/2 attribution text-xs text-center -translate-x-1/2 w-max">
+        <p className=''>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/Yinkajay">Yinx</a>.</p>
+      </div>
     </>
   )
 }
